@@ -52,6 +52,9 @@
             android:id="@+id/gender_male_imageView"
             android:layout_width="200dp"
             android:layout_height="201dp"
+            android:foreground="?android:selectableItemBackground"
+
+            android:background="@drawable/roundcorners"
             app:layout_constraintBottom_toTopOf="@+id/guideline"
             app:layout_constraintEnd_toStartOf="@+id/guideline4"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +65,9 @@
             android:id="@+id/gender_female_ImageView"
             android:layout_width="196dp"
             android:layout_height="200dp"
+            android:background="@drawable/roundcorners"
+            android:foreground="?android:selectableItemBackground"
+
             app:layout_constraintBottom_toTopOf="@+id/guideline"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline4"
